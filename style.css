@@ -1,0 +1,27 @@
+.form{
+    text-align: center;
+}
+
+.parent {
+    text-align: center;
+    margin-top:  20px;
+}
+
+.inline-block_test1 {
+    display: inline-block;
+    margin-left: 3%;
+}
+.inline-block_test2 {
+    display: inline-block;
+    margin-left: 45%;
+}
+.inline-block_test3 {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.todo-yet {
+    float: right;
+    margin-right:  60px;
+    cursor: pointer;
+  }
