@@ -6,6 +6,26 @@ body{
     margin-top:  20px;
 }
 
+.btn-detail,
+a.btn-detail {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 100vh;
+  padding: 1px 4px;
+  text-decoration: none;
+  border: 1px solid #000000;
+}
+
+.btn-submit,
+a.btn-submit {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 100vh;
+  padding: 4px 10px;
+  text-decoration: none;
+  border: 1px solid #000000;
+}
+
 .inline-block_test1 {
     display: inline-block;
     padding-right: 150px;
