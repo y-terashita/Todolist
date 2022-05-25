@@ -1,27 +1,52 @@
-.form{
+body{
     text-align: center;
 }
 
 .parent {
-    text-align: center;
     margin-top:  20px;
 }
 
 .inline-block_test1 {
     display: inline-block;
-    margin-left: 3%;
+    padding-right: 150px;
 }
 .inline-block_test2 {
     display: inline-block;
-    margin-left: 45%;
+    padding-left: 100px;
 }
 .inline-block_test3 {
     display: inline-block;
-    margin-left: 5%;
+    padding-left: 100px;
 }
 
-.todo-yet {
-    float: right;
-    margin-right:  60px;
-    cursor: pointer;
-  }
+li{
+    list-style: none;
+}
+
+.todo-title{
+    padding-right: 150px;
+}
+
+.todo-day{
+    padding-left: 100px;
+}
+
+.btn-yet,
+a.btn-yet {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 100vh;
+  padding: 1px 4px;
+  text-decoration: none;
+  border: 1px solid #000000;
+}
+
+.btn-delete,
+a.btn-delete {
+  color: rgb(255, 255, 255);
+  background-color: #EF0000;
+  border-radius: 100vh;
+  padding: 1px 4px;
+  text-decoration: none;
+  border: 1px solid #EF0000;
+}
